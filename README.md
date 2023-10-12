@@ -2,5 +2,5 @@
 Use testrail API to replace manual operations with workflows
 
 # Usage:
-> pip3 install -r requirements.txt
-> python3 init_release_test_plan.py -w "_weekdate with your test plan title_"
+1. pip3 install -r requirements.txt
+2. python3 init_release_test_plan.py -w "_weekdate with your test plan title_"

@@ -2,7 +2,7 @@ from testrail import *
 from pprint import *
 import argparse
 
-client = APIClient('https://inline.testrail.io/')
+client = APIClient('__YOUR_TESTRAIL_NAMESPACE__')
 client.user = '__YOUR_TESTRAIL_ACCOUNT__'
 client.password = '__YOUR_API_KEY__'
 
